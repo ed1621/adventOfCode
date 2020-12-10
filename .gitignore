@@ -1,0 +1,10 @@
+*.class
+*.log
+*.ndjson
+target
+log
+Brewfile.lock.json
+
+## IntelliJ Files
+.idea
+
