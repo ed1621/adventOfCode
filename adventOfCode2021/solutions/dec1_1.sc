@@ -1,4 +1,4 @@
-def getThing(report: List[Int]) = {
+def countIncreasesInDepth(report: List[Int]) = {
   val prevCurrentPairs = for {
     window <- report.sliding(2)
   } yield (window(0), window(1))
